@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParallelSence" parallel="methods" thread-count="5" time-out="5000">
+    <test name="ParallelTest">
+        <classes>
+            <class name="com.testcase.ParallelScence" />
+        </classes>
+    </test>
+</suite>
+        <!--<suite name="All Test Suite" >-->
+        <!--<listeners>-->
+        <!--<listener class-name="com.autobots.demo.Transform"/>-->
+        <!--<listener class-name="com.autobots.demo.Transform2"/>-->
+
+        <!--</listeners>-->
+
+        <!--<test verbose="2" preserve-order="true" name="Test">-->
+        <!--<classes>-->
+        <!--<class name="com.autobots.demo.TestNGDemo">-->
+        <!--</class>-->
+        <!--</classes>-->
+        <!--</test>-->
+        <!--</suite>-->

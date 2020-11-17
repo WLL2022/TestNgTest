@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>-->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+
+
+    <!--    <Appenders>-->
+    <!--        <Console name="Console" target="SYSTEM_OUT">-->
+    <!--            &lt;!&ndash;<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>&ndash;&gt;-->
+    <!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+    <!--        </Console>-->
+
+
+    <!--    </Appenders>-->
+
+
+    <!--    <Loggers>-->
+    <!--        <Root level="INFO">-->
+    <!--            <AppenderRef ref="Console"/>-->
+    <!--        </Root>-->
+    <!--        <logger name="org.springframework" level="ERROR">-->
+    <!--            <appender-ref ref="Console"/>-->
+    <!--        </logger>-->
+    <!--        <logger name="org.jooq.Constants" level="ERROR">-->
+    <!--            <appender-ref ref="Console"/>-->
+    <!--        </logger>-->
+    <!--    </Loggers>-->
+
+
+</Configuration>

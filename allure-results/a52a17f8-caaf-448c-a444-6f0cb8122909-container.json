@@ -1,0 +1,1 @@
+{"uuid":"a52a17f8-caaf-448c-a444-6f0cb8122909","name":"com.server.TestMoke","children":["33be8cb1-2fc9-414c-995d-e33a083b0e36"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1605417154229,"stop":1605417154599}],"afters":[],"links":[],"start":1605417154214,"stop":1605417160007}
